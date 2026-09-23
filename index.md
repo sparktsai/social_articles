@@ -7,6 +7,13 @@
 - [What AI Adoption Actually Looks Like Inside a Software Company](EIF_EnterpriseAIInField/Linkedin/L_EIF_A_01_company-ai-adoption.md)
 - [What Happens When AI Customer Service Is Added to Years of Existing Systems?](EIF_EnterpriseAIInField/Linkedin/L_EIF_A_02_customer-service-ai-adoption.md)
 
+## History Review
+
+### X
+
+- [From Acceptance Checklists to AI Evals: How Software Testing Evolved](HR_HistoryReview/X/X_HR_A_01_software-testing-to-ai-evals.md)
+- [From Peer Inspection to AI-Generated Change Review: How Code Review Evolved](HR_HistoryReview/X/X_HR_A_02_code-review-to-ai-generated-change-review.md)
+
 ## Trace ID
 
 ### X
@@ -21,4 +28,4 @@
 
 ### 2026-09
 
-- [From Acceptance Checklists to AI Evals: How Software Testing Evolved](X/20260923_A_software-testing-to-ai-evals.md)
+目前尚無 Article。
