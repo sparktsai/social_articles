@@ -11,6 +11,9 @@
 
 ```text
 social_articles/
+├── raw/                         # 僅存在於工作分支
+│   ├── chat.md
+│   └── reference.md
 ├── Linkedin/
 │   ├── 20260923_P_trace-id-intro.md
 │   └── 20260923_A_backend-roadmap.md
@@ -33,6 +36,21 @@ social_articles/
     └── Medium/
         └── M_BRA_A_01_backend-learning-path.md
 ```
+
+`raw/` 為工作分支專用目錄，不納入 `main`；因此 `main` 的實際目錄中不會包含此目錄。
+
+## 原始材料目錄
+
+`raw/` 專門存放撰寫草稿時使用的原始材料，例如：
+
+- Chat 對話內容
+- 參考資料與摘錄
+- 尚未整理的筆記
+- 草稿產生過程中的暫存內容
+
+此目錄僅供撰寫期間使用，可隨時刪除。若內容需要保留，應留在對應的工作分支，不可整合進 `main`。
+
+請勿在 `raw/` 中存放密碼、API Key、Token、個人資料或其他不應進入 Git 歷史的敏感資訊。
 
 ## 單篇草稿
 
@@ -142,6 +160,31 @@ L_BRA_P_01_backend-learning-path.md
 3. 依照平台、系列縮寫、內容類型、序號與主題建立 Markdown 草稿，例如 `L_TI_P_01_trace-id-intro.md`。
 4. 同一篇文章若需要在不同平台保留不同版本，請分別放在對應平台目錄中。
 
+## Git 工作流程
+
+每篇草稿或每組相關草稿應在獨立的工作分支完成，並遵循以下流程：
+
+1. 從最新的 `main` 建立工作分支。
+2. 在工作分支建立 `raw/`，放入原始材料或 Chat 內容。
+3. 將 `raw/` 內容獨立提交，不可與正式草稿放在同一個 commit。
+4. 依照單篇或系列文章的目錄與命名規則撰寫草稿。
+5. 將正式草稿獨立提交，且該 commit 不可包含 `raw/` 的變更。
+6. 完成後，只將正式草稿的 commit 整合進 `main`。
+7. 保留工作分支，讓 `raw/` 只存在於該分支；若不再需要原始材料，也可直接刪除該分支。
+
+為避免 `raw/` 進入 `main` 的 Git 歷史，不可直接 merge 整個工作分支。請從 `main` 使用 `cherry-pick`，只選取不含 `raw/` 的正式草稿 commit：
+
+```shell
+git switch main
+git cherry-pick <draft-commit>
+```
+
+整合前可使用下列指令確認該 commit 不包含 `raw/`：
+
+```shell
+git show --stat <draft-commit>
+```
+
 ## 維護原則
 
 - 每個系列主題都應有清楚且唯一的縮寫。
@@ -150,3 +193,5 @@ L_BRA_P_01_backend-learning-path.md
 - 單篇與系列草稿的 topic 建議保持在 30 字以內，確保檔名簡潔且容易辨識。
 - 檔名欄位統一使用底線 `_` 分隔，只有 topic 內的單字使用連字號 `-` 分隔。
 - 草稿內容以 Markdown 撰寫，便於版本控管與跨平台調整。
+- `raw/` 只存在於工作分支，不可出現在 `main` 的檔案或 Git 歷史中。
+- `raw/` 與正式草稿必須分開提交，方便只整合正式草稿。
