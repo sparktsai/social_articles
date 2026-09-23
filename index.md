@@ -5,6 +5,7 @@
 ### Linkedin
 
 - [What AI Adoption Actually Looks Like Inside a Software Company](EIF_EnterpriseAIInField/Linkedin/L_EIF_A_01_company-ai-adoption.md)
+- [What Happens When AI Customer Service Is Added to Years of Existing Systems?](EIF_EnterpriseAIInField/Linkedin/L_EIF_A_02_customer-service-ai-adoption.md)
 
 ## Trace ID
 
