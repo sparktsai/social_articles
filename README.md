@@ -133,6 +133,24 @@ M_TI_A_01_trace-id-intro.md
 L_BRA_P_01_backend-learning-path.md
 ```
 
+如果 Post 是由某一篇 Article 延伸，為了能從檔名直接辨識對應關係，使用以下格式：
+
+```text
+{L|X|M}_{SerialAbbreviation}_P_{ArticleNumber}_{PostNumber}_{topic}.md
+```
+
+範例：
+
+```text
+L_EIF_A_01_company-ai-adoption.md
+L_EIF_P_01_01_company-ai-adoption.md
+L_EIF_P_01_02_software-engineering-pipeline.md
+L_EIF_A_02_customer-service-ai-adoption.md
+L_EIF_P_02_01_customer-service-integration.md
+```
+
+在延伸 Post 的檔名中，`P` 後第一組兩位數是對應的 Article 序號，第二組兩位數是該 Article 底下的 Post 序號。例如 `L_EIF_P_02_01` 代表對應 `L_EIF_A_02` 的第 1 篇 Post。
+
 命名說明：
 
 - `{L|X|M}`：使用平台名稱的識別碼。
@@ -142,6 +160,8 @@ L_BRA_P_01_backend-learning-path.md
 - `{SerialAbbreviation}`：使用第一層系列主題目錄中的縮寫。
 - `{P|A}`：內容類型，`P` 代表 Post，`A` 代表 Article。
 - `{SerialNumber}`：使用兩位數流水號，從 `01` 開始。
+- `{ArticleNumber}`：延伸 Post 所對應的 Article 兩位數序號。
+- `{PostNumber}`：同一篇 Article 底下的 Post 兩位數序號，從 `01` 開始。
 - `{topic}`：簡短描述內容主題，建議保持在 30 字以內；主題中的單字以連字號 `-` 分隔。
 - 各命名欄位之間使用底線 `_` 分隔。
 - 檔案副檔名統一使用 `.md`。
