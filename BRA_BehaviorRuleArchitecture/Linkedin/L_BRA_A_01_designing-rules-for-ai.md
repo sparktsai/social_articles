@@ -26,6 +26,12 @@ Each step solved one problem, then exposed another.
 
 Like many people working with AI-assisted development, I started with prompts.
 
+Looking back, I can trace this problem to **July 2025**, while developing a document and knowledge management system. As the development work became more complex, I repeatedly had to bring earlier decisions and constraints back into the conversation.
+
+Each correction solved the immediate problem, but the underlying issue remained: the AI could respond to the current request without consistently carrying forward every constraint established earlier in the development process.
+
+At the time, I did not call these constraints "rules." They were simply additional instructions needed to keep the implementation aligned with the intended architecture.
+
 At first, the instructions were simple.
 
 Generate this.

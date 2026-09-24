@@ -26,6 +26,12 @@ At that point, I was no longer only defining a Rule.
 
 I was beginning to design an architecture.
 
+Looking back, I can trace this transition to **March 2026**, when the work on Rules, Constraints, and Rulesets began to converge into what I would call Behavior Rule Architecture. As these artifacts became structured and reusable, I had to determine how they could be identified, governed, classified, and composed without silently changing their behavioral meaning.
+
+Each structural decision solved one immediate management problem, but the underlying issue remained: a collection of valid Rules did not automatically define how those Rules should coexist as engineering artifacts.
+
+At the time, I was no longer only refining instruction language. I was defining the boundaries between language, Rule, governance assets, and external execution.
+
 Before going further, however, one boundary is important.
 
 **BRA originated in AI-assisted software development.**

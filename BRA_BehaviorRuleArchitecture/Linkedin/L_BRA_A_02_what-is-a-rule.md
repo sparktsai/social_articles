@@ -32,6 +32,12 @@ But they did not mean the same thing.
 
 That became the next problem.
 
+Looking back, I can trace this problem to **January 2026**, when I was trying to turn repeated AI development instructions into reusable Rules and Rulesets. Once those instructions were separated from prompts, I still had to determine what made one statement a Rule rather than a preference, policy, or constraint.
+
+Each clarification solved one semantic ambiguity, but the underlying issue remained: natural-language instructions could look similar while expressing different levels of obligation and prohibition.
+
+At the time, I was not yet defining the final architecture. I was trying to understand what a Rule had to mean before it could become a reusable engineering artifact.
+
 ---
 
 ## The scope at the time was software development
