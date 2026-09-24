@@ -254,6 +254,8 @@ In other words:
 
 > **Governance information could be preserved without requiring all governance information to participate in every LLM inference.**
 
+[[PNG]]
+
 This also changed the role of the repository.
 
 It was no longer merely a place where I stored some Rule files.
@@ -776,6 +778,8 @@ The Rule Library does not have to become specific to VS Code Copilot.
 The CLI does not need to understand every development workflow.
 
 And governance information does not have to be sent to the LLM merely because it needs to be preserved.
+
+[[PNG]]
 
 ---
 

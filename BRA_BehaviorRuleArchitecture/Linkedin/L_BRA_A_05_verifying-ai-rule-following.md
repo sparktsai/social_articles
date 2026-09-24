@@ -333,6 +333,8 @@ Governance cannot reliably inspect information that the engineering process neve
 
 Before deciding whether behavior is acceptable, the behavior first has to become visible.
 
+[[PNG]]
+
 ---
 
 # Then I encountered the second problem
@@ -1004,6 +1006,8 @@ Without Rule Revision:
 > Review does not create a learning loop.
 
 Only when these pieces connect does the system begin to support continuous Rule governance.
+
+[[PNG]]
 
 ---
 

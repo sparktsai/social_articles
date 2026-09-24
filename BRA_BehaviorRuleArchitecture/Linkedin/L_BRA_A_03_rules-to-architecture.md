@@ -377,6 +377,8 @@ The architecture could evolve without becoming structurally arbitrary.
 
 And validation still had a clear boundary.
 
+[[PNG]]
+
 It could answer:
 
 > Is this a structurally and semantically usable Rule artifact?
@@ -736,6 +738,8 @@ The architecture emerged by deciding:
 - and what should be managed at a higher level.
 
 That distinction became more important than any individual schema field.
+
+[[PNG]]
 
 ---
 

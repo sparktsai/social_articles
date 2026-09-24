@@ -313,6 +313,8 @@ toward:
 
 > **What behavior is explicitly required or prohibited?**
 
+[[PNG]]
+
 ---
 
 # Problem 5: MUST and MUST NOT still did not make a rule executable
@@ -764,6 +766,8 @@ Target alone was insufficient
 ```
 
 This was becoming more than a language problem.
+
+[[PNG]]
 
 ---
 

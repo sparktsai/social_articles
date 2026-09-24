@@ -62,6 +62,8 @@ That was probably my first informal rule system.
 
 I just didn't call it one yet.
 
+[[PNG]]
+
 ---
 
 ## Then I Put the Rules Closer to the Code
@@ -245,6 +247,8 @@ This solved a practical problem I had been dealing with since the beginning:
 I no longer needed to manually reconstruct the same behavioral instructions every time I started a new task.
 
 But it also created a much more interesting problem.
+
+[[PNG]]
 
 ---
 

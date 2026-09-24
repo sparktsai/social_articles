@@ -74,6 +74,8 @@ I am more interested in this possibility:
 
 Category becomes a way to organize and discover Rules, not necessarily a rigid hierarchy.
 
+[[PNG]]
+
 ## Then I thought about existing engineering guides
 
 Software engineering already has a lot of this knowledge.
@@ -205,6 +207,8 @@ That is the small experiment I would like to see:
 Maybe the interesting future is not one giant universal Rule Library.
 
 Maybe it is many independently maintained Rule Libraries, representing different kinds of engineering knowledge, that developers and organizations can discover, adapt, and use.
+
+[[PNG]]
 
 And perhaps we already have much more of that knowledge than we think.
 
