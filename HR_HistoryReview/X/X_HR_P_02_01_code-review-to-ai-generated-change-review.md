@@ -1,5 +1,15 @@
-AI can generate the code, tests, PR summary, and even the review. They may all agree—and still solve the wrong problem.
+Before designing AI code review, let's look back:
 
-Code review has evolved from inspecting source code to verifying whether a generated change matches human intent.
+What has code review historically reviewed?
+What problem was it trying to solve?
 
-A short history of what we review, and why.
+Now that AI can generate the change, what are we really reviewing?
+
+Code quality?
+The requirement?
+The implementation?
+The original intent?
+
+What do you think belongs at the center of AI code review?
+
+Perhaps every enterprise gives AI a different task, so what needs to be reviewed should be different too.
